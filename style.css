@@ -1,0 +1,26 @@
+.galerija 
+{
+    display: flex; /* Redja elemente horizontalno */
+    gap: 20px;     /* Pravi razmak izmedju slika */
+}
+.galerija figure 
+{
+     margin: 0;     /* Uklanja podrazumevane margine */
+}
+.galerija img 
+{
+    width: 400px;
+    height: auto;
+}
+
+.slika7 
+{
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.slika7:hover 
+{
+    filter: grayscale(0%);
+}
+
